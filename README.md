@@ -59,6 +59,9 @@ You can try the live demo here:
 
 ## نحوه استفاده / How to Use
 
+
+#### ○ استفاده به روش `Include`:
+
 1. آخرین نسخه فایل `ZamanYar.js` را از پوشه `script` دانلود کنید.  
 2. فایل را داخل پوشه پروژه خود قرار دهید.  
 3. در فایل HTML پروژه، اسکریپت را با این کد اضافه کنید:
@@ -72,7 +75,9 @@ You can try the live demo here:
 
 <details>
 <summary>English (click to expand)</summary>
-
+ 
+### ○ Using via Include:
+ 
 1. Download the latest version of the `ZamanYar.js` file from the `ZamanYar.js` folder.  
 2. Place the file inside your project folder.  
 3. Add the script to your project's HTML file with this code:
@@ -86,6 +91,48 @@ You can try the live demo here:
 
 </details>
 
+#### ○ استفاده به روش `CDN`: <br>
+
+1. در این روش بدون نیاز به دانلود، با یک خط کد می‌توانید فایل را به‌صورت آنلاین در HTML خود وارد کنید. <br>
+2. همچنین در این روش می‌تونید از یه نسخه خاص استفاده کنید یا همیشه آخرین نسخه رو داشته باشید. <br>
+
+⚠️ فقط در صورت اتصال به اینترنت قابل استفاده است.
+
+
+
+نسخه آخر (داینامیک):
+```html
+<script src="https://cdn.jsdelivr.net/gh/Amir-Hosein-Amiri/ZamanYar@main/script/ZamanYar.js"></script>
+```
+نسخه انتخابی (ثابت):
+```html
+<script src="https://cdn.jsdelivr.net/gh/Amir-Hosein-Amiri/ZamanYar@v1.0.0/script/ZamanYar.js"></script>
+```
+
+<details>
+<summary>English (click to expand)</summary>
+
+### ○ Using via CDN: <br>
+
+With this method, you can include the file in your HTML using a single line of code, without downloading anything. <br>
+
+You can either use a specific version or always get the latest version. <br>
+
+⚠️ Only works when connected to the internet.
+
+Latest version (dynamic):
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/Amir-Hosein-Amiri/ZamanYar@main/script/ZamanYar.js"></script>
+```
+
+Specific version (static):
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/Amir-Hosein-Amiri/ZamanYar@v1.0.0/script/ZamanYar.js"></script>
+```
+
+</details>
 
 ## حمایت / Support
 
