@@ -39,20 +39,6 @@ It replaces manual typing in HTML `type="time"` inputs, providing a fast, accura
 </details>
 
 ---
-
-*برای دیدن دمو روی تصویر کلیک کنید.*
-
-<details>
-<summary>English (click to expand)</summary>
-
-[![ZamanYar Preview](https://amir8218.ir/GitHub/ZamanYar/Screenshot/ZamanYar.png)](https://amir8218.ir/GitHub/ZamanYar/Project/)
-
-*Click the image to open the live demo.*
-
-</details>
-
----
-
 ## تست آنلاین / Live Demo
 
 برای تست آنلاین می‌توانید از این لینک استفاده کنید: 
