@@ -4,15 +4,21 @@
 
  ## درباره / About
 
-زمان‌یار یک ابزار ایرانی و فارسی‌زبان برای انتخاب سریع و آسان ساعت است که به عنوان جایگزینی ساده و کاربردی برای تایپ دستی زمان در inputهای `type="time"` در HTML طراحی شده است.  
-هدف زمان‌یار بهبود تجربه کاربری و افزایش دقت در وارد کردن زمان با استفاده از یک رابط کاربری فارسی و ایرانی‌پسند است.
+زمان‌یار نتیجه‌ی دغدغه‌ی من برای ساده‌تر کردن انتخاب زمان در فرم‌های وب فارسیه. <br>
+از اونجایی که `input` با `type="time` تو خیلی از مرورگرها رابط کاربری خوبی برای فارسی‌زبان‌ها نداره، <br>
+تصمیم گرفتم یه ابزار کوچیک، سبک و فارسی‌پسند بسازم که کارو برای کاربر و برنامه‌نویس راحت‌تر کنه. <br>
+زمان‌یار یه جایگزین ساده، کاربردی و بومیه برای انتخاب ساعت، با ظاهری سازگار با سلیقه‌ی ما ایرانی‌ها. <br>
  
 
 <details>
-<summary>English (click to expand)</summary>
+<summary>English (click to expand)</summary> <br>
 
-ZamanYar is a Persian tool for quick and easy time selection.  
-It replaces manual typing in HTML `type="time"` inputs, providing a fast, accurate, and localized user experience.
+ZamanYar was created from my personal goal to make time selection easier in Persian web forms. <br>
+Since the default input type="time" doesn't offer a good user interface in many browsers for Persian users, <br>
+I decided to build a small, lightweight, and Persian-friendly tool to simplify the process for both users and developers. <br>
+ZamanYar is a simple, practical, and local alternative for picking time, designed to match the aesthetics and preferences of Iranian users. <br>
+
+
 
 </details>
 
@@ -28,7 +34,7 @@ It replaces manual typing in HTML `type="time"` inputs, providing a fast, accura
 
 
 <details>
-<summary>English (click to expand)</summary>
+<summary>English (click to expand)</summary> <br>
 
 - Fast and precise time selection  
 - Full replacement for manual typing in HTML time inputs  
@@ -46,7 +52,7 @@ It replaces manual typing in HTML `type="time"` inputs, providing a fast, accura
 <a href="https://amir8218.ir/GitHub/ZamanYar/Project/" target="_blank" style="background-color:#4CAF50;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;">تست آنلاین زمان‌یار</a>
 
 <details>
-<summary>English (click to expand)</summary>
+<summary>English (click to expand)</summary> <br>
 
 You can try the live demo here:  
 
@@ -74,7 +80,7 @@ You can try the live demo here:
 ```
 
 <details>
-<summary>English (click to expand)</summary>
+<summary>English (click to expand)</summary> <br>
  
 ### ○ Using via Include:
  
@@ -111,7 +117,7 @@ You can try the live demo here:
 ```
 
 <details>
-<summary>English (click to expand)</summary>
+<summary>English (click to expand)</summary> <br>
 
 ### ○ Using via CDN: <br>
 
@@ -141,7 +147,7 @@ Specific version (static):
 حمایت شما انرژی و انگیزه‌ای برای بهبودهای بیشتر است.
 
 <details>
-<summary>English (click to expand)</summary>
+<summary>English (click to expand)</summary> <br>
 
 If you like ZamanYar and want to see it improved, please support us by starring ⭐ this repository and sharing it.  
 Your support gives us energy and motivation for further improvements.
