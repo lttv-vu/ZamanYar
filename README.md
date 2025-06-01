@@ -1,11 +1,12 @@
 
-<h2 dir="rtl">زمان‌یار / ZamanYar</h2>
+<h2 dir="rtl"> زمان‌یار / ZamanYar</h2>
 
 
 [![ZamanYar Preview](https://amir8218.ir/GitHub/ZamanYar/Screenshot/ZamanYar.png)](https://amir8218.ir/GitHub/ZamanYar/Project/)
 ---
 
- ## درباره / About
+<h2 dir="rtl">  درباره / About </h2>
+
 
 زمان‌یار نتیجه‌ی دغدغه‌ی من برای ساده‌تر کردن انتخاب زمان در فرم‌های وب فارسیه. <br>
 از اونجایی که `input` با `"type="time` تو خیلی از مرورگرها رابط کاربری خوبی برای فارسی‌زبان‌ها نداره، <br>
@@ -26,7 +27,7 @@ ZamanYar is a simple, practical, and local alternative for picking time, designe
 </details>
 
 ---
-## قابلیت‌ها / Features
+<h2 dir="rtl"> قابلیت‌ها / Features </h2>
 
 - انتخاب سریع و دقیق ساعت
 - نمایش زمان دقیق فعلی بصورت پیش فرض
@@ -48,7 +49,7 @@ ZamanYar is a simple, practical, and local alternative for picking time, designe
 </details>
 
 ---
-## تست آنلاین / Live Demo
+<h2 dir="rtl"> تست آنلاین / Live Demo </h2>
 
 برای تست آنلاین می‌توانید از این لینک استفاده کنید: 
 
@@ -66,7 +67,7 @@ You can try the live demo here:
 
 ---
 
-## نحوه استفاده / How to Use
+<h2 dir="rtl"> نحوه استفاده / How to Use </h2>
 
 
 #### ○ استفاده به روش `Include`:
@@ -144,7 +145,7 @@ Specific version (static):
 
 </details>
 
-## حمایت / Support
+<h2 dir="rtl"> حمایت / Support </h2>
 
 اگر از زمان‌یار خوشتان آمد و مایلید پروژه را توسعه دهیم، لطفاً با دادن ⭐ به این پروژه و به اشتراک گذاشتن آن ما را حمایت کنید.  
 حمایت شما انرژی و انگیزه‌ای برای بهبودهای بیشتر است.
@@ -159,7 +160,7 @@ Your support gives us energy and motivation for further improvements.
 
 ---
 
-## ارتباط با من / Contact Me
+<h2 dir="rtl"> ارتباط با من / Contact Me </h2>
 
  <p dir="auto">
     <a href="https://wa.me/+989201342023" rel="nofollow"><img src="https://img.shields.io/badge/WhatsApp-url?style=for-the-badge&logo=WhatsApp&logoColor=%2325D366&color=%23082032" alt="WhatsApp" style="max-width: 100%;"></a>
