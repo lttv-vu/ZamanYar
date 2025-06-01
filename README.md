@@ -29,22 +29,30 @@ ZamanYar is a simple, practical, and local alternative for picking time, designe
 ---
 <h2 dir="rtl"> قابلیت‌ها / Features </h2>
 
-- انتخاب سریع و دقیق ساعت
-- نمایش زمان دقیق فعلی بصورت پیش فرض
-- جایگزینی کامل تایپ دستی در `input`های زمان در `HTML` 
-- پشتیبانی کامل از فرمت و زبان فارسی  
-- طراحی ساده و کاربرپسند  
-- مناسب برای استفاده در وب‌سایت‌های ایرانی و فارسی‌زبان
+- انتخاب سریع و دقیق زمان
+- نمایش پیش‌فرض ساعت فعلی
+- جایگزینی کامل تایپ دستی در input‌های زمان HTML
+- پشتیبانی کامل از فرمت و زبان فارسی
+- طراحی ساده و کاربرپسند
+- نصب سریع و آسان
+- کاملاً ریسپانسیو و سازگار با همه دستگاه‌ها
+- بدون نیاز به فونت خارجی – از فونت پروژه شما استفاده می‌کند
+- مناسب برای وب‌سایت‌های فارسی‌زبان و ایرانی
 
 
 <details>
 <summary>English (click to expand)</summary> <br>
 
-- Fast and precise time selection  
-- Full replacement for manual typing in HTML time inputs  
-- Full support for Persian language and format  
-- Simple and user-friendly design  
-- Ideal for use in Persian and Iranian websites
+- Quick & precise time selection Displays current time by default
+- Fully replaces manual time input in HTML
+- Full support for Persian format and language
+- Clean, user-friendly design
+- Fast and easy to install
+- Fully responsive and device-optimized
+- No external fonts – inherits your project’s typography
+- Perfect for Persian and Farsi-language websites
+
+
 
 </details>
 
