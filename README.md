@@ -5,7 +5,7 @@
  ## درباره / About
 
 زمان‌یار نتیجه‌ی دغدغه‌ی من برای ساده‌تر کردن انتخاب زمان در فرم‌های وب فارسیه. <br>
-از اونجایی که `input` با `type="time` تو خیلی از مرورگرها رابط کاربری خوبی برای فارسی‌زبان‌ها نداره، <br>
+از اونجایی که `input` با `"type="time` تو خیلی از مرورگرها رابط کاربری خوبی برای فارسی‌زبان‌ها نداره، <br>
 تصمیم گرفتم یه ابزار کوچیک، سبک و فارسی‌پسند بسازم که کارو برای کاربر و برنامه‌نویس راحت‌تر کنه. <br>
 زمان‌یار یه جایگزین ساده، کاربردی و بومیه برای انتخاب ساعت، با ظاهری سازگار با سلیقه‌ی ما ایرانی‌ها. <br>
  
@@ -14,7 +14,7 @@
 <summary>English (click to expand)</summary> <br>
 
 ZamanYar was created from my personal goal to make time selection easier in Persian web forms. <br>
-Since the default input type="time" doesn't offer a good user interface in many browsers for Persian users, <br>
+Since the default `input` `type="time"` doesn't offer a good user interface in many browsers for Persian users, <br>
 I decided to build a small, lightweight, and Persian-friendly tool to simplify the process for both users and developers. <br>
 ZamanYar is a simple, practical, and local alternative for picking time, designed to match the aesthetics and preferences of Iranian users. <br>
 
