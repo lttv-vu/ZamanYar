@@ -70,7 +70,7 @@ You can try the live demo here:
 
 1. آخرین نسخه فایل `ZamanYar.js` را از پوشه `script` دانلود کنید.  
 2. فایل را داخل پوشه پروژه خود قرار دهید.  
-3. در فایل HTML پروژه، اسکریپت را با این کد اضافه کنید:
+3. در فایل `HTML` پروژه، اسکریپت را با این کد اضافه کنید:
 ```html
 <script src="script/ZamanYar.js" defer></script>
 ```
@@ -86,7 +86,7 @@ You can try the live demo here:
  
 1. Download the latest version of the `ZamanYar.js` file from the `ZamanYar.js` folder.  
 2. Place the file inside your project folder.  
-3. Add the script to your project's HTML file with this code:
+3. Add the script to your project's `HTML` file with this code:
 ```html
 <script src="script/ZamanYar.js" defer></script>
 ```
