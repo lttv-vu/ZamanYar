@@ -29,14 +29,14 @@ ZamanYar is a simple, practical, and local alternative for picking time, designe
 ---
 <h2 dir="rtl"> قابلیت‌ها / Features </h2>
 
-- امکان استفاده بصورت رایگان
-- انتخاب سریع و دقیق زمان (ایران)
-- نمایش پیش‌فرض ساعت فعلی
-- جایگزینی کامل تایپ دستی در input‌های زمان HTML
+- امکان استفاده بصورت `رایگان`
+- انتخاب سریع و دقیق زمان
+- نمایش پیش‌فرض ساعت فعلی `(ایران)`
+- جایگزینی کامل تایپ دستی در `input`‌ های زمان `HTML`
 - پشتیبانی کامل از فرمت و زبان فارسی
 - طراحی ساده و کاربرپسند
 - نصب سریع و آسان
-- کاملاً ریسپانسیو و سازگار با همه دستگاه‌ها
+- کاملاً `ریسپانسیو` و سازگار با همه دستگاه‌ها
 - بدون نیاز به فونت خارجی – از فونت پروژه شما استفاده می‌کند
 - مناسب برای وب‌سایت‌های فارسی‌زبان و ایرانی
 - برنامه‌نویسان می‌توانند استایل را طبق نیاز پروژه خود تغییر دهند.
@@ -46,16 +46,17 @@ ZamanYar is a simple, practical, and local alternative for picking time, designe
 <details>
 <summary>English (click to expand)</summary> <br>
  
-- Free to use
-- Quick & precise time selection Displays current time by default (IRAN)
-- Fully replaces manual time input in HTML
-- Full support for Persian format and language
-- Clean, user-friendly design
-- Fast and easy to install
-- Fully responsive and device-optimized
-- No external fonts – inherits your project’s typography
-- Perfect for Persian and Farsi-language websites
-- Developers can customize the style to fit their project.
+- `Free` to use
+- Fast and accurate time selection
+- Default display of the current time `(Iran)`
+- Fully replaces manual typing in `HTML` time `inputs`
+- Full support for Persian language and formats
+- Simple and user-friendly design
+- Quick and easy installation
+- Fully `responsive` and compatible with all devices
+- No need for external fonts – uses your project’s font
+- Ideal for Persian and Iranian websites
+- Developers can customize the style to fit their project needs
 
 
 
@@ -138,9 +139,9 @@ You can try the live demo here:
 
 ### ○ Using via CDN: <br>
 
-1. With this method, you can include the file online in your HTML with a single line of code, no download needed. <br>
+1. With this method, you can include the file online in your `HTML` with a single line of code, no download needed. <br>
 2. You can either use a specific version or always have the latest version. <br>
-3. To use a specific version, replace v1.0.0 with your desired version. <br>
+3. To use a specific version, replace `v1.0.0` with your desired version. <br>
 
 ⚠️ Only works when connected to the internet.
 
