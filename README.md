@@ -40,8 +40,8 @@ ZamanYar is a simple, practical, and local alternative for picking time, designe
 - بدون نیاز به فونت خارجی – از فونت پروژه شما استفاده می‌کند
 - مناسب برای وب‌سایت‌های فارسی‌زبان و ایرانی
 - برنامه‌نویسان می‌توانند استایل را طبق نیاز پروژه خود تغییر دهند.
-  -
 
+ 
 
 <details>
 <summary>English (click to expand)</summary> <br>
