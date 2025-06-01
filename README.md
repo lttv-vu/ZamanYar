@@ -119,7 +119,7 @@ You can try the live demo here:
 
 1. در این روش بدون نیاز به دانلود، با یک خط کد می‌توانید فایل را به‌صورت آنلاین در `HTML` خود وارد کنید. <br>
 2. همچنین در این روش می‌تونید از یه نسخه خاص استفاده کنید یا همیشه آخرین نسخه رو داشته باشید. <br>
-3. برای استفاده از یک نسخه خاص و انتخابی، به جای `v1.0.0` ورژن دلخواه‌تون رو بذارید. <br>
+3. برای استفاده از یک نسخه خاص و انتخابی، به جای `v1.0.0` در لینک ورژن دلخواه‌تون رو بذارید. <br>
 
 ⚠️ فقط در صورت اتصال به اینترنت قابل استفاده است.
 
@@ -141,7 +141,7 @@ You can try the live demo here:
 
 1. With this method, you can include the file online in your `HTML` with a single line of code, no download needed. <br>
 2. You can either use a specific version or always have the latest version. <br>
-3. To use a specific version, replace `v1.0.0` with your desired version. <br>
+3. To use a specific version, replace `v1.0.0` in the link with your desired version. <br>
 
 ⚠️ Only works when connected to the internet.
 
