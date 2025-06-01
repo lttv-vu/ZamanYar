@@ -94,7 +94,7 @@ You can try the live demo here:
 ```
 4. حالا به هر `input` که کلاس `ZamanYar` بدهید اسکریپت روی ان اجرا میشود. نمونه:
 ```html
-<input type="text" class="ZamanYar" placeholder="انتخاب ساعت"/>
+<input type="text" class="ZamanYar" placeholder="انتخاب ساعت" readonly/>
 ```
 
 <details>
