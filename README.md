@@ -110,7 +110,7 @@ You can try the live demo here:
 ```
 4. Now, add the class `ZamanYar` to any `input` element where you want the script to apply. Example:
 ```html
-<input type="text" class="ZamanYar" placeholder="Select Time"/>
+<input type="text" class="ZamanYar" placeholder="Select Time" readonly/>
 ```
 
 </details>
