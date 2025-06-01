@@ -1,4 +1,7 @@
-# زمان‌یار / ZamanYar
+
+<h2 dir="rtl">زمان‌یار / ZamanYar</h2>
+
+
 [![ZamanYar Preview](https://amir8218.ir/GitHub/ZamanYar/Screenshot/ZamanYar.png)](https://amir8218.ir/GitHub/ZamanYar/Project/)
 ---
 
