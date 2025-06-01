@@ -156,3 +156,10 @@ Your support gives us energy and motivation for further improvements.
 
 ---
 
+## ارتباط با من / Contact Me
+
+ <p dir="auto">
+    <a href="https://wa.me/+989201342023" rel="nofollow"><img src="https://img.shields.io/badge/WhatsApp-url?style=for-the-badge&logo=WhatsApp&logoColor=%2325D366&color=%23082032" alt="WhatsApp" style="max-width: 100%;"></a>
+    <a href="https://www.instagram.com/amir._.ea_" rel="nofollow"><img src="https://img.shields.io/badge/instagram-%23082032?style=for-the-badge&logo=instagram&logoColor=%23FD0AB6&color=%23082032" alt="Instagram" style="max-width: 100%;"></a>
+    <a href="https://t.me/Ami_ea" rel="nofollow"><img src="https://img.shields.io/badge/telegram-url?style=for-the-badge&logo=telegram&logoColor=%232CA5E0&color=%23082032" alt="telegram" style="max-width: 100%;"></a>
+
